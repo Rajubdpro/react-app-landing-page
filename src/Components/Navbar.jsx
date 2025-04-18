@@ -28,7 +28,7 @@ function Navbar() {
                 <li onClick={() => setActive('home')}><a href="#home" className={`${active === 'home' && 'active'}`}> Home </a></li>
                 <li onClick={() => setActive('features')}><a href="#features" className={`${active === 'features' && 'active'}`}> Feautures </a></li>
                 <li onClick={() => setActive('about')}><a href="#about" className={`${active === 'about' && 'active'}`}> About </a></li>
-                <li onClick={() => setActive('presentaion')}><a href="#presentaion" className={`${active === 'presentaion' && 'active'}`}> UI & Presentation </a></li>
+                <li onClick={() => setActive('presentation')}><a href="#presentation" className={`${active === 'presentation' && 'active'}`}> UI & Presentation </a></li>
                 <li onClick={() => setActive('download')}><a href="#download" className={`${active === 'download' && 'active'}`}> Download </a></li>
                 <li onClick={() => setActive('contact')}><a href="#contact" className={`${active === 'contact' && 'active'}`}> Contact </a></li>
             </ul>
