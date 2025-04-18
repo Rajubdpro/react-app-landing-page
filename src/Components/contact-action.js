@@ -18,10 +18,10 @@ export async function sendContactForm(formData) {
 
   // In a real application, you would send an email or save to a database
   // Example with a real email service:
-  /*
+  
   try {
     await sendEmail({
-      to: "your-email@example.com",
+      to: "rajubdpro@gmail.com",
       subject: `Contact Form: ${formData.subject}`,
       text: `
         Name: ${formData.name}
@@ -35,5 +35,5 @@ export async function sendContactForm(formData) {
     console.error("Error sending email:", error);
     throw new Error("Failed to send message");
   }
-  */
+
 }
